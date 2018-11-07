@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{038F9A2F-5408-4139-B622-B905F0EA543E}"
 	ProjectSection(SolutionItems) = preProject
 		kube-deploy.yml = kube-deploy.yml
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global

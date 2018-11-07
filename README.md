@@ -7,7 +7,8 @@ docker push leixu.azurecr.io/netcore-dockerlinux:v1
 
 2. deploy to k8s
 
-## Create the secret (replace <acrname> <acr-pwd> and <email>)
+Create the secret (replace <acrname> <acr-pwd> and <email>)
+
 kubectl create secret docker-registry leixuacr --docker-server=leixu.azurecr.io --docker-username=leixu --docker-password=<acr-pwd> --docker-email=<your-email>
 
 kubectl apply -f kube-deploy.yml
